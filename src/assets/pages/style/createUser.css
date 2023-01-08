@@ -1,0 +1,142 @@
+.create-container {
+    width: 100%;
+    background: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.create__form {
+    border: 1px solid rgba(255, 0, 0, 0.164);
+    border-bottom: 1px solid #fb3449;
+    width: 300px;
+    margin: 0 auto;
+    color: rgb(82, 79, 79);
+    background-color: white;
+    border-radius: 5px;
+    height: 100%;
+    padding: 1rem 1.2rem;
+    margin: 3rem auto;
+
+}
+
+.create__form-title {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.create__form-email {
+    font-size: 1.2em;
+}
+
+.create__form-email-input {
+    width: 100%;
+    height: 30px;
+    margin: 0.5rem 0;
+    border-radius: 3px;
+    border: 1px solid rgb(156, 152, 152);
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
+
+.create__form-firstName-input {
+    width: 100%;
+    height: 30px;
+    margin: 0.5rem 0;
+    border-radius: 3px;
+    border: 1px solid rgb(156, 152, 152);
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+
+.create__form-firstName {
+    font-size: 1.2rem;
+}
+
+.create__form-lastName {
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.create__form-lastName-input {
+    width: 100%;
+    height: 30px;
+    margin: 0.5rem 0;
+    border-radius: 3px;
+    border: 1px solid rgb(156, 152, 152);
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.create__form-password {
+    font-size: 1.2em;
+}
+
+.create__form-password-input {
+    width: 100%;
+    height: 30px;
+    margin: 0.5rem 0;
+    border-radius: 3px;
+    border: 1px solid rgb(156, 152, 152);
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.create__form-phone {
+    font-size: 1.2em;
+}
+
+.create__form-phone-input {
+    width: 100%;
+    height: 30px;
+    margin: 0.5rem 0;
+    border-radius: 3px;
+    border: 1px solid rgb(156, 152, 152);
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.create__form-div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create__btn-div {
+    display: flex;
+
+}
+
+.create__form-role {
+    line-height: 30px;
+}
+
+.create__form-role-input {
+    width: 70%;
+    height: 30px;
+    display: none;
+
+}
+
+.create__form-btn {
+    width: 90%;
+    height: 42px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    background: #fb3449;
+    border: 1px solid rgb(233, 211, 150);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.884);
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.ada{
+    display: none;
+}

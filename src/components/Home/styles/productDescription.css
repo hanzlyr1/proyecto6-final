@@ -1,0 +1,145 @@
+.article{
+    display: flex;
+    background-color: rgb(253, 251, 255);
+}
+
+.article__slider{
+ width: 625px;
+ height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.article__description{
+    width: 625px;
+    height: 500px;
+    display: flex;
+justify-content: center;
+align-items: center; 
+ 
+}
+.slider__img{
+    width: 525px;
+    height: 450px;  
+    display: flex;
+     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.img__img{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+.slider__icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(188, 48, 48);
+}
+.right{
+    position: absolute;
+    right: 40px;
+}
+.left{
+    left:40px;
+    position: absolute;
+}
+.icons{
+    color: #fff;
+}
+
+/*article__description*/
+.article__description{
+    display: flex;
+justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.product__title{
+    padding: 1rem;
+}
+.product__description{
+    padding: 1rem;
+}
+.flex{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.description__button{
+    width: 90%;
+    height: 40px;
+    margin: 1.3rem auto;
+    background: rgb(223, 112, 112);
+    
+}
+
+.product__price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+   
+}
+
+.product__span{
+    margin-left: .5rem ;
+}
+.product__handle{
+    display: flex;
+}
+.product__h3{
+    padding: .3rem 0;
+}
+.product__button{
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    background: none;
+    border: 1px solid rgb(175, 172, 169);
+}
+.product__counter{
+    width: 50px;
+    height: 30px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid bisque;
+}
+
+@media ( min-width:280px) and (max-width:500px){
+
+    .article{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .article__description{
+        top: 30px;
+      width: auto;
+      height: auto;
+    }
+ 
+}
+
+@media ( min-width:500px) and (max-width:1100px){
+    .article{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .article__description{
+        top: 30px;
+      width: auto;
+      height: auto;
+    }
+}

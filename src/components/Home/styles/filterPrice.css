@@ -1,0 +1,34 @@
+.price{
+    padding: 1.1rem ;
+}
+
+.price__form{
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+ gap: 1.2rem;    
+}
+.price__from{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: .4rem;
+}
+.price__input{
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.price__button{
+    width: 100px;
+    height: 30px;
+    grid-column:1/3
+}
+.price__buttons{
+    display: flex;
+    justify-content: end;
+   
+}
+.price__button{ border-radius: 5px;
+background-color: rgb(220, 70, 70);
+color: white;
+}
